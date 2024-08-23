@@ -2,6 +2,7 @@
 # kind: Ingress
 # metadata:
 #   name: minimal-ingress
+#   namespace: default
 #   annotations:
 #      alb.ingress.kubernetes.io/scheme: internet-facing
 #      kubernetes.io/ingress.class: alb

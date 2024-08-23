@@ -4,6 +4,7 @@ metadata:
   labels:
     app: flask-app
   name: frontend
+  namespace: default
 spec:
   ports:
   - name: http
